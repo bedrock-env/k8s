@@ -1,0 +1,16 @@
+{
+  "author": "Ben Mills",
+  "platforms": {
+    "macos": {
+      "homebrew": {
+        "install_steps": [
+          {
+            "binary": "brew",
+            "command": "install kubectx",
+            "runif": "test ! \"$(which kubectx)\""
+          }
+        ]
+      }
+    }
+  }
+}
