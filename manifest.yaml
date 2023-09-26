@@ -1,0 +1,12 @@
+author:
+  name: Ben Mills
+  email: ben@unfiniti.com
+platforms:
+  - macos
+setup:
+  macos:
+    steps:
+    - name: Install kubectx
+      command: brew install kubectx
+      runif: |-
+        test ! "$(which kubectx)"
